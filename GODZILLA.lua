@@ -27,7 +27,8 @@ local token = io.read()
 if token ~= '' then
 local url , res = https.request('https://api.telegram.org/bot'..token..'/getMe')
 if res ~= 200 then
-print('\27[0;31m●∆━━━━ᧁꪮᦔɀ𝓲ꪶꪶꪖ━━━━∆●\n التوكن غير صحيح تاكد منه ثم ارسله')
+print('\27[0;31m●∆━━━━ᧁꪮᦔɀ𝓲
+ꪶꪖ━━━━∆●\n التوكن غير صحيح تاكد منه ثم ارسله')
 else
 io.write('\27[0;31m تم حفظ التوكن بنجاح \n●∆━━━━ᧁꪮᦔɀ𝓲ꪶꪶꪖ━━━━∆●\n27[0;39;49m')
 local json = JSON.decode(url)
@@ -173,7 +174,7 @@ io.popen("mkdir File_Bot")
 io.popen("cd File_Bot && rm -rf commands.lua.1") 
 io.popen("cd File_Bot && rm -rf commands.lua.2") 
 io.popen("cd File_Bot && rm -rf commands.lua.3") 
-io.popen("cd File_Bot && wget https://raw.githubusercontent.com/devbnds/lole/main/File_Bot/commands.lua") 
+io.popen("cd File_Bot && wget https://raw.githubusercontent.com/soursafyona/godzela/main/File_Bot/commands.lua") 
 t = "\27[35m".."\nAll Files Started : \n____________________\n"..'\27[m'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
@@ -1682,10 +1683,10 @@ local msg_id = msg.id_/2097152/0.5
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'معلومات📚', callback_data="/change-hhh"},{text = 'السورس🌀', callback_data="/change-siusr"},
+{text = 'مــعــلومـات ¦ 📊', callback_data="/change-hhh"},{text = 'الـــسـورس ¦ 🦦', callback_data="/change-siusr"},
 },
 {
-{text = 'الابراج🔮', callback_data="/zDRGd"},{text = 'الالعاب🎮', callback_data="/add"},
+{text = 'الابــراج ¦ 🐥', callback_data="/zDRGd"},{text = 'الالــعــاب ¦ 🎮', callback_data="/add"},
 },
 {
 {text = ' مــطــور الــبــوت🐥', url="http://t.me/"..sudos.UserName},
@@ -1715,7 +1716,7 @@ local keyboard = {
 {'ضع اسم للبوت','معلومات الكيبورد'},
 {'المطور','المساعد'},
 {'الاحصائيات'},
-{'『تواصل لسورس』'},
+{'『تواصل السورس』'},
 {'『اوامر الاذاعه』','『اوامر اضف』'},
 {'『اوامر التفعيل』','『اوامر الحمايه』'},
 {'جلب المشتركين','جلب النسخه'},
@@ -1888,12 +1889,12 @@ echo '●∆━━━━ᧁꪮᦔɀ𝓲ꪶꪶꪖ━━━━∆●\n 💾l •�
 echo '●∆━━━━ᧁꪮᦔɀ𝓲ꪶꪶꪖ━━━━∆●\n 🖥️l •⊱ 『 موقـع الـسـيـرفـر 』 ⊰•\n『*»» '`curl http://th3boss.com/ip/location`'*』'
 echo '●∆━━━━ᧁꪮᦔɀ𝓲ꪶꪶꪖ━━━━∆●\n 🕹️l •⊱ 『 الـمــعــالــج 』  ⊰•\n『* '"`grep -c processor /proc/cpuinfo`""Core ~ 『$CPUPer%』 "'*』'
 echo '●∆━━━━ᧁꪮᦔɀ𝓲ꪶꪶꪖ━━━━∆●\n 👨🏾‍🔧l •⊱ 『 الــدخــول 』  ⊰•\n『* '`whoami`'*』'
-echo '●∆━━━━ᧁꪮᦔɀ𝓲ꪶꪶꪖ━━━━∆●\n 🔌l •⊱ 『 مـده تـشغيـل الـسـيـرفـر 』 ⊰•\n『* '"$uptime"'*』'
+echo '●∆━━━━ᧁꪮᦔɀ𝓲ꪶꪶꪖ━━━━∆●\n 🐥l •⊱ 『 مـده تـشغيـل الـسـيـرفـر 』 ⊰•\n『* '"$uptime"'*』'
 ]]):read('*all'))  
 end
 if SourceCh(msg) and text == 'تحديث السورس ' and Devban(msg) then 
 os.execute('rm -rf GODZILLA.lua')
-os.execute('wget https://raw.githubusercontent.com/devbnds/lole/main/GODZILLA.lua')
+os.execute('wget https://raw.githubusercontent.com/soursafyona/godzela/main/GODZILLA.lua')
 send(msg.chat_id_, msg.id_,' ● تم تحديث السورس')
 dofile('GODZILLA.lua')  
 end
@@ -2109,7 +2110,7 @@ keyboard.inline_keyboard = {
 {{text = sَoٰuِِ𝖱ٰcٌe GٓOٰٰDِٓZٰłLٰA', url="t.me/B_e_m_0"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/41&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/B_e_m_0/1429&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if SourceCh(msg) and text == "ضع اسم للبوت" and msa3d(msg) then  
@@ -3674,7 +3675,7 @@ end
 return false
 end
 os.execute('rm -rf GODZILLA.lua')
-os.execute('wget https://raw.githubusercontent.com/devbnds/lole/main/GODZILLA.lua')
+os.execute('wget https://raw.githubusercontent.com/soursafyona/godzela/main/GODZILLA.lua')
 send(msg.chat_id_, msg.id_,' ● تم تحديث السورس')
 dofile('GODZILLA.lua')  
 end
@@ -3999,7 +4000,7 @@ keyboard.inline_keyboard = {
 {{text = '♪ اضغط لاضافه البوت لمجمعتك •' ,url="t.me/"..dofile("./Info.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/41&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/B_e_m_0/1429&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 local tokenget = '1910742031:AAGxfqrJRSDnw2qN9akXVskce2P8gw7pUWI'
@@ -5177,18 +5178,18 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, start_function, 
 end
 if SourceCh(msg) and text == 'قناة السورس' then
 local Text = [[ 
-[قناه سورس الديبادخل وتابع الجديد](t.me/B_e_m_0)
+[قناه سورس جودزيلاادخل وتابع الجديد](t.me/B_e_m_0)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = sَoٰuِِ𝖱ٰcٌe GٓOٰٰDِٓZٰłLٰA', url="t.me/B_e_m_0"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/41&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/B_e_m_0/1429&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if SourceCh(msg) and text == '●∆━━━━ᧁꪮᦔɀ𝓲ꪶꪶꪖ━━━━∆●' then
 local Text = [[ 
- ●من أحسن السورسات على التليجرام سورس الديب●
+ ●من أحسن السورسات على التليجرام سورس جودزيلا●
 بجد سورس أمان جدا وفي مميزات جامده
 تع نصب بوتك عندنا لو محظور
 خش على تواصل هيدخلك لروم التواصل 
@@ -5198,7 +5199,7 @@ keyboard.inline_keyboard = {
 {{text = sَoٰuِِ𝖱ٰcٌe GٓOٰٰDِٓZٰłLٰA', url="t.me/B_e_m_0"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/41&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/B_e_m_0/1429&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if SourceCh(msg) and text == 'التواصل'  then
@@ -5215,7 +5216,7 @@ https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. ms
 end
 if SourceCh(msg) and text == 'العاب جودزيلا' or text == 'العاب مطوره' or text == 'العاب متطوره' then  
 local Text = [[  
- ● اهلا في قائمه الالعاب المتطوره سورس الديب● 
+ ● اهلا في قائمه الالعاب المتطوره سورس جودزيلا● 
 تفضل اختر لعبه من القائمه 
 ]]  
 keyboard = {}   
@@ -7357,7 +7358,7 @@ send(msg.chat_id_, msg.id_,t)
 end
 if SourceCh(msg) and text == "متجر الملفات" or text == 'المتجر' then
 if Devban(msg) then
-local Get_Files, res = https.request("https://raw.githubusercontent.com/devbnds/lole/main/getfile.json")
+local Get_Files, res = https.request("https://raw.githubusercontent.com/soursafyona/godzela/main/getfile.json")
 if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
@@ -7395,7 +7396,7 @@ t = " ● الملف  ⋙ "..file.."\n ● تم تعطيل ملف \n"
 else
 t = " ● بالتاكيد تم تعطيل ملف → "..file.."\n"
 end
-local json_file, res = https.request("https://raw.githubusercontent.com/devbnds/lole/main/File_Bot/"..file)
+local json_file, res = https.request("https://raw.githubusercontent.com/soursafyona/godzela/main/File_Bot/"..file)
 if res == 200 then
 os.execute("rm -fr File_Bot/"..file)
 send(msg.chat_id_, msg.id_,t) 
@@ -7415,7 +7416,7 @@ t = " ● بالتاكيد تم تفعيل ملف → "..file.." \n"
 else
 t = " ● الملف  ⋙ "..file.."\n ● تم تفعيل ملف \n"
 end
-local json_file, res = https.request("https://raw.githubusercontent.com/devbnds/lole/main/File_Bot/"..file)
+local json_file, res = https.request("https://raw.githubusercontent.com/soursafyona/godzela/main/File_Bot/"..file)
 if res == 200 then
 local chek = io.open("File_Bot/"..file,'w+')
 chek:write(json_file)
