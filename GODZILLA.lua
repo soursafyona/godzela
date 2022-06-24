@@ -378,12 +378,12 @@ end
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(5520469387) then  
 var = 'افـ ـيـ ـونـ ـا بــــ ــاشـــ ــا🇪🇬!'
-elseif tonumber(user_id) == tonumber(5143244107) then
-var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(5520469387) then
-var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(5271211126) then
 var = '!🇪🇬نـــــــادر'
+elseif tonumber(user_id) == tonumber(5520469387) then
+var = 'مبرمج السورس'
+elseif tonumber(user_id) == tonumber(5143244107) then
+var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif bot_data:sismember(ban_id.."Dev:ban:2", user_id) then
